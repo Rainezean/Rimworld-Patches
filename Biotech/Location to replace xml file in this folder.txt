@@ -1,0 +1,8 @@
+
+Location : RimWorld\Data\Biotech\Defs\ThingDefs_Races
+
+Location : RimWorld\Data\Biotech\Defs\ThingDefs_Buildings
+
+Location : RimWorld\Data\Biotech\Defs\RecipeDefs
+
+Place the .Xml file (In this folder) with the same name on the address given and overwrite it
