@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Name="MediumMechanoidRecipe1" ParentName="BaseMechanoidRecipe" Abstract="True">
+		<researchPrerequisite>StandardMechtech</researchPrerequisite>
+		<gestationCycles>4</gestationCycles>
+		<recipeUsers>
+			<li>LargeMechGestator</li>
+		</recipeUsers>
+	</RecipeDef>
+		
+	<RecipeDef ParentName="MediumMechanoidRecipe1">
+		<defName>Mechanoid_Hound</defName>
+		<label>gestate Hound</label>
+		<description>Gestate a Hound mechanoid.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>140</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>70</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mechanoid_Hound>1</Mechanoid_Hound>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mechanoid_Hound</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MediumMechanoidRecipe1">
+		<defName>Mechanoid_Chimera</defName>
+		<label>gestate Chimera</label>
+		<description>Gestate a Chimera mechanoid.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>70</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mechanoid_Chimera>1</Mechanoid_Chimera>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mechanoid_Chimera</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+	
+</Defs>

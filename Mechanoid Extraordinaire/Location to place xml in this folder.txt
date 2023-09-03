@@ -1,0 +1,17 @@
+Location: \1106719215\1.4\Defs\ThingDefs_Races
+
+(Put Races_Mechanoid_MechanoidsExtraordinaire.xml in here)
+
+Location : \1106719215\1.4\Patches
+
+(Put "Patches" folder in here)
+
+Location : \1106719215\1.4\Defs\RecipeDefs
+
+(Put Mech Gestator.xml in here) [should be 4 xml]
+
+Location : \1106719215\Patches
+
+(Put Vanillapatches.xml in here)
+
+Re/place the .XML in these folder

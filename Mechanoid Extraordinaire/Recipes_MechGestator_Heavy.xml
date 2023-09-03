@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Name="HeavyMechanoidRecipe2" ParentName="BaseMechanoidRecipe" Abstract="True">
+		<researchPrerequisite>StandardMechtech</researchPrerequisite>
+		<recipeUsers><li>LargeMechGestator</li></recipeUsers>
+		<gestationCycles>6</gestationCycles>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="HeavyMechanoidRecipe2">
+		<defName>Mechanoid_Goliath</defName>
+		<label>gestate Goliath</label>
+		<description>Gestate a Goliath mechanoid.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>250</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>120</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mechanoid_Goliath>1</Mechanoid_Goliath>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mechanoid_Goliath</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+	
+</Defs>

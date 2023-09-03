@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="SuperHeavyMechanoidRecipe1" ParentName="BaseMechanoidRecipe" Abstract="True">
+    <researchPrerequisite>HighMechtech</researchPrerequisite>
+	<recipeUsers><li>LargeMechGestator</li></recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SuperHeavyMechanoidRecipe1">
+    <defName>Mechanoid_Kraken</defName>
+    <label>gestate Kraken</label>
+    <description>Gestate a Kraken mechanoid.</description>
+	<gestationCycles>8</gestationCycles>
+    <products>
+      <Mechanoid_Kraken>1</Mechanoid_Kraken>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mechanoid_Kraken</ThingDef>
+    </descriptionHyperlinks>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>350</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+  
+</Defs>

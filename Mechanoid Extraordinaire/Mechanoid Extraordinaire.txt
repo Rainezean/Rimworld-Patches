@@ -1,0 +1,74 @@
+Mechanoid Extraordinaire:
+
+1. Vespa: Light
+
+-Half gold
+-Floating??
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 Standard Subcore
+-20 Gold (200)
+-20 Plasteel
+-30 Steel
+-3 Component
+--------------------------------------------------------------------------------------
+2. Hound: Medium
+
+-Equipped with a Grenade launcher(Medium Range)
+-Dog
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 standard Subcore
+-70 Plasteel
+-140 Steel
+-2 Component
+--------------------------------------------------------------------------------------
+3. Chimera: Medium
+
+-Medium range Incendiary Artillery (Fire Spread BE AWARE)
+-One Head
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 Standard Subcore
+-100 Chemfuel
+-100 Steel
+-70 Plasteel
+-2 Component
+--------------------------------------------------------------------------------------
+4. Goliath: Heavy
+
+-Brawler and Destructor of self
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 Standard Subcore
+-100 Chemfuel
+-250 Steel
+-120 Plasteel
+-4 Component
+--------------------------------------------------------------------------------------
+5. Kraken: UltraHeavy
+
+-Wagly Arm
+-same as Hound But Shoot faster
+
+prerequisite research: High mechtech
+
+ingredients:
+
+-1 High Subcore
+-350 Steel
+-100 Plasteel
+-8 Component
+-1 ComponentSpacer

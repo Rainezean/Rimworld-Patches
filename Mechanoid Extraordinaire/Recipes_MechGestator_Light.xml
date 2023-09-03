@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="LightMechanoidRecipe2" ParentName="BaseMechanoidRecipe" Abstract="True">
+    <researchPrerequisite>StandardMechtech</researchPrerequisite>
+   <recipeUsers><li>MechGestator</li></recipeUsers>
+   <gestationCycles>4</gestationCycles>
+  </RecipeDef>
+
+    <RecipeDef ParentName="LightMechanoidRecipe2">
+    <defName>Mechanoid_Vespa</defName>
+    <label>gestate Vespa</label>
+    <description>Gestate a Vespa mechanoid.</description>
+  
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreRegular</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mechanoid_Vespa>1</Mechanoid_Vespa>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mechanoid_Vespa</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+</Defs>
