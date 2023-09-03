@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Name="HeavyMechanoidRecipe1" ParentName="BaseMechanoidRecipe" Abstract="True">
+		<researchPrerequisite>HighMechtech</researchPrerequisite>
+		<recipeUsers><li>LargeMechGestator</li></recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="HeavyMechanoidRecipe1">
+		<defName>AMW_Mech_Supernova</defName>
+		<label>gestate Supernova</label>
+		<description>Gestate a Supernova mechanoid.</description>
+		<gestationCycles>2</gestationCycles>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreBasic</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<AMW_Mech_Supernova>1</AMW_Mech_Supernova>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>AMW_Mech_Supernova</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="HeavyMechanoidRecipe1">
+		<defName>Mech_Anarchist</defName>
+		<label>gestate Anarchist</label>
+		<description>Gestate an Anarchist mechanoid.</description>
+		<gestationCycles>4</gestationCycles>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mech_Anarchist>1</Mech_Anarchist>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Anarchist</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+	
+</Defs>

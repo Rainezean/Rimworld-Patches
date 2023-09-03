@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "ResurrectLightMech"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>Corpse_Mech_NovaBlossom</li>
+			<li>Corpse_AMW_Mech_Blacklight</li>
+			<li>Corpse_AMW_Mech_Frosthound</li>
+			<li>Corpse_Mech_Scourge</li>
+			<li>Corpse_Mech_Supressor</li>
+			<li>Corpse_Mech_Flayer</li>
+			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "ResurrectMediumMech"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>Corpse_Mech_Charger</li>
+			<li>Corpse_Mech_Headhunter</li>
+			<li>Corpse_Mech_Impulse</li>
+			<li>Corpse_Mech_Sawblade</li>
+			<li>Corpse_Mech_Spike</li>
+			<li>Corpse_Mech_Renegade</li>
+			<li>Corpse_Mech_Vortex</li>
+			<li>Corpse_Mech_Nomad</li>
+			<li>Corpse_Mech_AMWSeeker</li>
+			<li>Corpse_Mech_Spectre</li>
+			<li>Corpse_Mech_Stalker</li>
+			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "ResurrectHeavyMech"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>Corpse_AMW_Mech_Supernova</li>
+			<li>Corpse_Mech_Anarchist</li>
+			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName = "ResurrectUltraheavyMech"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>Corpse_Mech_Derg</li>
+			<li>Corpse_Mech_Purger</li>
+			<li>Corpse_Mech_Reaper</li>
+			<li>Corpse_Mech_Thrumbo</li>
+			<li>Corpse_Mech_Wraith</li>
+			
+		</value>
+	</Operation>
+	
+</Patch>

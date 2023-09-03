@@ -1,0 +1,351 @@
+Advanced Mechanoid Warfare:
+
+1. Nova Blossom: Light
+
+-Explode and no body
+-Instakill a pawn unless strong armor or has a shield belt or both
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 basic subcore
+-50 chemfuel
+-40 steel
+-10 Plasteel
+--------------------------------------------------------------------------------------
+2. Blacklight: Light
+
+-Same as Nova Blossom
+-More damage
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 basic subcore
+-50 chemfuel
+-10 Uranium
+-10 Steel
+-40 Plasteel
+--------------------------------------------------------------------------------------
+3. FrostHound: Light
+
+-Same as Nova Blossom but uses Neutroamine
+-Explode causing 2x pain hediffs, mostly for non armored or half-ed armored
+-Has a body when exploded
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 Standard Subcore
+-20 Neutroamine
+-20 plasteel
+-30 Steel
+--------------------------------------------------------------------------------------
+4. Supernova: Heavy
+
+-Antigrain Explosion radius
+-Same As Blacklight
+-Deals a lot of damage to wall (Destroyed a normal Plasteel Wall)
+
+prerequisite research: High Mechtech
+
+ingredients:
+
+-2 Basic Subcore
+-200 Chemfuel
+-100 Uranium
+-50 Plasteel
+-200 Steel
+--------------------------------------------------------------------------------------
+5. Mecha Dragon: UltraHeavy
+
+-Very Strong Melee, Shoots out Explosive red Plasma (Can kill Cataphract armored) albeit slow
+-Actually Has a body
+-Very Tanky
+
+prerequisite research: High Mechtech
+
+ingredients:
+
+-1 High Subcore
+-1 Signal Chip
+-10 Component
+-400 Plasteel
+-300 Steel
+--------------------------------------------------------------------------------------
+6. Charger: Medium
+
+-A Wolf Mechanoid
+-Chomp
+
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 Standard Subcore
+-50 Plasteel
+-100 Steel
+-5 component
+--------------------------------------------------------------------------------------
+7. Anarchist: Heavy
+
+-Scorpion, strong Melee, Either Equipped with Explosive Plasma or Gatling Laser
+
+prerequisite research: High Mechtech
+
+ingredients:
+
+-1 Standard Subcore
+-9 Component
+-200 Steel
+-50 Plasteel
+--------------------------------------------------------------------------------------
+8. Headhunter: Medium
+
+-Long range Sniper, Very Fragile
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 Standard Subcore
+-4 Component
+-10 Plasteel
+-120 Steel
+--------------------------------------------------------------------------------------
+9. Purger: UltraHeavy
+
+-Spiderlike, Very Tanky
+-Shoot Energy Blade with medium range
+-Low Bandwith but very Expensive
+
+prerequisite research: High Mechtech
+
+ingredients:
+
+-1 Standard Subcore
+-2 Basic Subcore
+-330 Plasteel
+-200 Steel
+-3 Component
+--------------------------------------------------------------------------------------
+10. Reaper: UltraHeavy
+
+-Same as the Purger
+-Comes with Charge Cannon(Long Range) or Ion lense(Medium-long Range)
+-A bit Tankier than Purger
+
+prerequisite research: High Mechtech
+
+ingredients:
+
+-1 High Subcore
+-400 Plasteel
+-150 steel
+-8 Component
+--------------------------------------------------------------------------------------
+11. Impulse: Medium
+
+-Same as Charger but weaker and faster
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 Standard Subcore
+-85 Plasteel
+-45 Steel
+-3 component
+--------------------------------------------------------------------------------------
+12. Scourge: Light
+
+-Small and dangerous melee Fox
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 Basic Subcore
+-15 Plasteel
+-10 Steel
+--------------------------------------------------------------------------------------
+13. Sawblade: Medium
+
+-warg or cougar but with ion lense Ranged Weapon
+-Same as Impulse
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 Standard Subcore
+-120 Plasteel
+-80 Steel
+-3 Component
+--------------------------------------------------------------------------------------
+14. Spike: Medium
+
+-Same as Sawblade but stronger and faster melee Damage
+-A bit Tanky 
+
+prerequisite research: High Mechtech
+
+ingredients:
+
+-1 High Subcore
+-8 Component
+-230 Plasteel
+-75 Steel
+--------------------------------------------------------------------------------------
+15. Mecha Thrumbo: UltraHeavy
+
+-Thrumbo
+-Mechanical
+-Horn
+
+prerequisite research: High Mechtech
+
+ingredients:
+
+-1 High Subcore
+-1 Signal Chip
+-450 Plasteel
+-300 Steel
+-8 Component
+-1 ComponentSpacer
+--------------------------------------------------------------------------------------
+16. Renegade: Medium
+
+-Experimental Wolf
+-Has a Cryo nozzle that shoots like bullet Rapidly with medium range
+-Range deals Cryonic burn = more pain
+
+prerequisite research: High Mechtech
+
+ingredients:
+
+-1 High Subcore
+-150 Plasteel
+-50 Steel
+-100 Neutroamine
+-3 Component
+--------------------------------------------------------------------------------------
+17. Supressor: Light
+
+-Cobra with Poison Spit(Medium range)
+-Actually it's just a 2 shot Sharp Damage
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 Basic Subcore
+-10 Plasteel
+-10 Steel
+--------------------------------------------------------------------------------------
+18. Flayer: Light
+
+-Smol Raptor
+-Fast with 2 scythe
+
+prerequisite research: Basic Mechtech
+
+ingredients:
+-1 Basic Subcore
+-25 Steel
+--------------------------------------------------------------------------------------
+19. Vortex: Medium
+
+-Big Raptor
+-Equipped with Long range Gatling laser
+
+prerequisite research: Standard mechtech
+
+ingredients:
+
+-1 Standard Subcore
+-25 Plasteel
+-100 Steel
+-2 Component
+--------------------------------------------------------------------------------------
+20. Wraith: UltraHeavy
+
+-It's Anaconda
+-Strong But Slow
+
+prerequisite research: Ultra Mechtech
+
+ingredients:
+
+-1 High Subcore
+-650 Plasteel
+-300 Steel
+-12 Component
+-3 ComponentSpacer
+-1 PowerfocusChip
+--------------------------------------------------------------------------------------
+21. Nomad: Medium
+
+-Long range Assault rifle
+-Humanoid
+
+prerequisite research: High Mechtech
+
+ingredients:
+
+-1 High Subcore
+-250 Steel
+-100 Plasteel
+-3 Component
+-1 ComponentSpacer
+--------------------------------------------------------------------------------------
+22. Seeker: medium
+
+-Melee
+-Katana
+-Humanoid
+
+prerequisite research: High Mechtech
+
+ingredients:
+
+-1 High Subcore
+-120 Plasteel
+-230 Steel
+-2 Component
+-1 ComponentSpacer
+--------------------------------------------------------------------------------------
+23. Spectre: Medium
+
+-Wings [can't fly :( ]
+-very Long range bombardment (can also go over wall)
+
+prerequisite research: Ultra Mechtech
+
+ingredients:
+
+-1 High Subcore
+-2 Signal Chip
+-250 Plasteel
+-100 Steel
+-6 Component
+-2 ComponentSpacer
+--------------------------------------------------------------------------------------
+24. Stalker: Medium
+
+-Very Long Range Sniper
+-Humanoid
+
+prerequisite research: High Mechtech
+
+ingredients:
+
+-1 High Subcore
+-250 Steel
+-100 Plasteel
+-5 Component
+-1 ComponentSpacer

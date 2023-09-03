@@ -1,0 +1,13 @@
+Location: 2119930282\v1.4\Defs\ThingDefs_Races
+
+(Put Races_Mechanoid_AMW.xml) in here)
+
+Location : 2119930282\v1.4
+
+(Put "Patches" folder in here)
+
+Location : 2119930282\v1.4\Defs\RecipeDefs
+
+(Put Mech Gestator.xml in here) [should be 4 xml]
+
+Re/place the .XML in these folder

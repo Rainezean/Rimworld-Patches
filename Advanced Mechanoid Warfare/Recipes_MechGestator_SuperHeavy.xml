@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="SuperHeavyMechanoidRecipe1" ParentName="BaseMechanoidRecipe" Abstract="True">
+    <researchPrerequisite>HighMechtech</researchPrerequisite>
+	<recipeUsers><li>LargeMechGestator</li></recipeUsers>
+	<gestationCycles>12</gestationCycles>
+  </RecipeDef>
+  
+  <RecipeDef Name="SuperHeavyMechanoidRecipe2" ParentName="BaseMechanoidRecipe" Abstract="True">
+    <researchPrerequisite>UltraMechtech</researchPrerequisite>
+	<recipeUsers><li>LargeMechGestator</li></recipeUsers>
+	<gestationCycles>16</gestationCycles>
+  </RecipeDef>
+
+<RecipeDef ParentName="SuperHeavyMechanoidRecipe1">
+    <defName>Mech_Derg</defName>
+    <label>gestate Mecha Dragon</label>
+    <description>Gestate a Mecha Dragon mechanoid.</description>
+    <products>
+      <Mech_Derg>1</Mech_Derg>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_Derg</ThingDef>
+    </descriptionHyperlinks>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>300</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>400</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>SignalChip</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SuperHeavyMechanoidRecipe1">
+    <defName>Mech_Purger</defName>
+    <label>gestate Purger</label>
+    <description>Gestate a Purger mechanoid.</description>
+    <products>
+      <Mech_Purger>1</Mech_Purger>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_Purger</ThingDef>
+    </descriptionHyperlinks>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>330</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreBasic</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreRegular</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+  
+   <RecipeDef ParentName="SuperHeavyMechanoidRecipe1">
+    <defName>Mech_Reaper</defName>
+    <label>gestate Reaper</label>
+    <description>Gestate a Reaper mechanoid.</description>
+    <products>
+      <Mech_Reaper>1</Mech_Reaper>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_Reaper</ThingDef>
+    </descriptionHyperlinks>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>400</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+  
+   <RecipeDef ParentName="SuperHeavyMechanoidRecipe1">
+    <defName>Mech_Thrumbo</defName>
+    <label>gestate Mecha Thrumbo</label>
+    <description>Gestate a Mecha Thrumbo mechanoid.</description>
+    <products>
+      <Mech_Thrumbo>1</Mech_Thrumbo>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_Thrumbo</ThingDef>
+    </descriptionHyperlinks>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>300</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>450</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+  
+   <RecipeDef ParentName="SuperHeavyMechanoidRecipe2">
+    <defName>Mech_Wraith</defName>
+    <label>gestate Wraith</label>
+    <description>Gestate a Wraith mechanoid.</description>
+    <products>
+      <Mech_Wraith>1</Mech_Wraith>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_Wraith</ThingDef>
+    </descriptionHyperlinks>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>300</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>650</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>PowerfocusChip</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+
+</Defs>

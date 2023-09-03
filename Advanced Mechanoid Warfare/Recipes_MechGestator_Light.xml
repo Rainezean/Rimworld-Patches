@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="LightMechanoidRecipe1" ParentName="BaseMechanoidRecipe" Abstract="True">
+    <researchPrerequisite>BasicMechtech</researchPrerequisite>
+   <recipeUsers><li>MechGestator</li></recipeUsers>
+   <gestationCycles>3</gestationCycles>
+  </RecipeDef>
+  
+  <RecipeDef Name="LightMechanoidRecipe2" ParentName="BaseMechanoidRecipe" Abstract="True">
+    <researchPrerequisite>StandardMechtech</researchPrerequisite>
+   <recipeUsers><li>MechGestator</li></recipeUsers>
+   <gestationCycles>4</gestationCycles>
+  </RecipeDef>
+
+ <RecipeDef ParentName="LightMechanoidRecipe2">
+    <defName>Mech_NovaBlossom</defName>
+    <label>gestate NovaBlossom</label>
+    <description>Gestate a NovaBlossom mechanoid.</description>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreBasic</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_NovaBlossom>1</Mech_NovaBlossom>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_NovaBlossom</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+  
+   <RecipeDef ParentName="LightMechanoidRecipe2">
+    <defName>AMW_Mech_Blacklight</defName>
+    <label>gestate Blacklight</label>
+    <description>Gestate a Blacklight mechanoid.</description>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreBasic</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <AMW_Mech_Blacklight>1</AMW_Mech_Blacklight>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>AMW_Mech_Blacklight</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+  
+   <RecipeDef ParentName="LightMechanoidRecipe2">
+    <defName>AMW_Mech_Frosthound</defName>
+    <label>gestate Frosthound</label>
+    <description>Gestate a Frosthound mechanoid.</description>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreRegular</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <AMW_Mech_Frosthound>1</AMW_Mech_Frosthound>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>AMW_Mech_Frosthound</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LightMechanoidRecipe2">
+    <defName>Mech_Scourge</defName>
+    <label>gestate Scourge</label>
+    <description>Gestate a Scourge mechanoid.</description>
+    <products>
+      <Mech_Scourge>1</Mech_Scourge>
+    </products>
+	<ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreBasic</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_Scourge</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LightMechanoidRecipe2">
+    <defName>Mech_Supressor</defName>
+    <label>gestate Supressor</label>
+    <description>Gestate a Supressor mechanoid.</description>
+  
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreBasic</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_Supressor>1</Mech_Supressor>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_Supressor</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+  
+    <RecipeDef ParentName="LightMechanoidRecipe1">
+    <defName>Mech_Flayer</defName>
+    <label>gestate Flayer</label>
+    <description>Gestate a Flayer mechanoid.</description>
+  
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreBasic</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_Flayer>1</Mech_Flayer>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_Flayer</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+ 
+
+</Defs>
