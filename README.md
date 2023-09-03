@@ -9,5 +9,10 @@
  ##### i. All 24 Mechanoids Gestatable, Resurrectable, have their own Bandwith cost
  ##### ii. Slight or big modifications to said 24 mechanoids (Might be a bit too OP or not) - do let me know :)
  ##### iii. Included a .txt file that are used for evaluating said 24 mechanoids during my ~~half-assed~~ testing (included gestating Recipes as well)
+ ##### 2. [Mechanoids Extraordinaire](https://steamcommunity.com/sharedfiles/filedetails/?id=1106719215) - Biotech Patch
+ ##### i. All 5 mechanoids Gestatable, Resurrectable, Have their own Bandwith Cost
+ ##### ii. Slight or big modifications to said 5 mechanoids (Might be a bit too OP or not) - do let me know :)
+ ##### iii. Included a .txt file that are used for evaluating said 5 mechanoids during my ~~half-assed~~ testing (included gestating Recipes as well)
+ ##### ~~iv. Reduce how common the mechanoid spawn??~~
 ### License:
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
